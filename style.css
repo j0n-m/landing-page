@@ -10,4 +10,136 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: 'roboto', sans-serif;
+}
+
+nav {
+  padding: 1rem 14rem;
+  background-color: #1F2937;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  border: none;
+  background-color: #3882F6;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+.nav-logo {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
+.nav-links {
+  display: flex;
+  color: #E5E7EB;
+  font-size: 18px;
+  gap: 16px;
+}
+
+/* Section 1 - HERO */
+.hero {
+  display: flex;
+  padding: 8rem 14rem;
+  background-color: #1F2937;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+}
+
+.hero-secondary-text {
+  color: #E5E7EB;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.hero-left-side {
+  text-align: left;
+  padding-right: 3rem;
+  flex-basis: 500px;
+}
+
+.hero-image {
+  flex-grow: 2;
+  background-color: rgb(123, 123, 123);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-shrink: 0;
+}
+
+/* section2 */
+.section2 p {
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+.section2 {
+  padding: 4rem 14rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-card-container {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  padding: 3rem 0;
+}
+
+.info-heading {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937;
+
+}
+
+.image-card {
+  width: 200px;
+}
+
+.image {
+  height: 200px;
+  border: 4px solid #3882F6;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+/* section3 */
+.section3 {
+  background-color: #E5E7EB;
+  padding: 8rem 14rem 4rem;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: lighter;
+  padding: 0 5rem;
+}
+
+.quote-signiture {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: bold;
+  text-align: right;
+  padding: 0.5rem;
 }

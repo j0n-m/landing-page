@@ -99,7 +99,8 @@ button a {
   align-items: center;
   color: white;
   flex: 0 0 500px;
-  max-height: 300px;
+  min-height: 300px;
+  max-height: 400px;
   background-image: url("./image/space.jpg");
   background-size: cover;
 }
